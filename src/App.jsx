@@ -1,13 +1,14 @@
 
 import './App.css';
+import First from './components/first';
 
 function App() {
   return (
     <div >
-      <h1>myFirstApp</h1>
+     <First/>
     </div>
 
-    
+
   );
 }
 
