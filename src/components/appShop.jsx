@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './navBar'
 import Section1 from './section1'
 import Section2 from './section2'
-
+import "./appShop.css";
 
 const AppShop = () => {
   return (
