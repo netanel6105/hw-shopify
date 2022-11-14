@@ -1,3 +1,21 @@
 .strip{
-    background-color: DarkGreen ;
+    background-color: rgb(1, 83, 1) ;
+    
 }
+.nav-left ul{
+    display: flex;
+    list-style: none;
+    
+}
+ li{
+    justify-content: space-around;
+ }
+
+
+
+.nav-left img{
+   max-height: 80px;
+}
+   
+
+
