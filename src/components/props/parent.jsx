@@ -9,7 +9,7 @@ const [date,setDate] = useState('2022-11-14')
   return (
     <div>
         <Chaild date={date}/>
-        <Chaild2/>
+        <Chaild2 data={date}/>
     </div>
   )
 }
