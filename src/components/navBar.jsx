@@ -2,22 +2,33 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='strip container-fluid '>
+    <header className='strip container-fluid '>
       <div className='container'>
-      <div className='nav-left p-3 d-flex'>
-        <img src="./images/shopify-2.jpg" alt="" />
-                   
-        <ul>              
-          <li>Start</li>
-          <li>Sell</li>
-          <li>Market</li>
-          <li>Manage</li>
-        </ul>
-         
-      </div>
+        <div className="left_side">
+          <img src="./images/shopify-2.jpg" alt="" />
+
+          <nav>
+            <a href="#">Home</a>
+            <a href="#">Gallery</a>
+            <a href="#">About Us</a>
+            <a href="#">Our Location</a>
+            <a href="#">Games</a>
+          </nav>
+
+        </div>
+
+        <div className="right_side">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Gallery</a>
+            <a href="#">About Us</a>
+            <button className='btn btn-success'>start free trail</button>
+          </nav>
+        </div>
+
       </div>
 
-    </div>
+    </header>
   )
 }
 
