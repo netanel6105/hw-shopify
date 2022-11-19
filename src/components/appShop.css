@@ -1,26 +1,38 @@
 *{
     box-sizing: border-box;
 }
+.container{
+    margin: 0 auto;
+    max-width: 1300px;
+}
 
-.strip{
+
+header{
     background-color: rgb(1, 83, 1) ;
+    min-height:100%;
     
-}
-.nav-left ul{
-    display: flex;
-    list-style: none;
-    
-}
- li{
-    justify-content: space-around;
- }
-
-
-
-.nav-left img{
-   max-height: 80px;
-   border-radius: 100% 60%;
-}
    
+    
+}
+.logo img{
+    height: 100px;
+    border-radius: 100% 50%;
+}
 
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+header nav a{
+    text-decoration: none;
+    color:white;
+    padding: 0 12px;
+}
+
+header nav a:hover{
+    color: blue;
+    background: orange;
+    text-decoration: underline;
+}

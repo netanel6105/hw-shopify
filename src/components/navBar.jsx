@@ -2,11 +2,15 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <header className='strip container-fluid '>
+    <header className='container-fluid '>
       <div className='container'>
-        <div className="left_side">
-          <img src="./images/shopify-2.jpg" alt="" />
 
+          <div className="logo">      
+          <img src="./images/shopify-2.jpg" alt="" />
+          </div>
+
+
+        <div className="left_side">
           <nav>
             <a href="#">Home</a>
             <a href="#">Gallery</a>
@@ -14,8 +18,8 @@ const Navbar = () => {
             <a href="#">Our Location</a>
             <a href="#">Games</a>
           </nav>
-
         </div>
+
 
         <div className="right_side">
         <nav>
