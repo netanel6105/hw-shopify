@@ -36,3 +36,39 @@ header nav a:hover{
     background: orange;
     text-decoration: underline;
 }
+
+
+
+/* section1 */
+
+.section-1{
+    background-color: rgb(1, 51, 1) ;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+ .left-side-sec1 .sub{
+   display: flex;
+   align-items: center;
+   padding-bottom: 15px;
+}
+
+.left-side-sec1 h3{
+    padding-bottom: 25px;
+}
+.left-side-sec1 h1{
+    padding-bottom: 25px;
+}
+.left-side-sec1 h6{
+    padding-top: 25px;
+}
+ .left-side-sec1{
+   padding-left: 60px;
+
+}
+
+.right-side-sec1 img{
+ padding-left: 20px;
+}
