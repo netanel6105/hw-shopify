@@ -24,9 +24,9 @@ const Section1 = () => {
 
 
           <div className="right-side-sec1">
-            <img src="./images/webdisin.webp" alt="" />
+            <img src="./images/webdisin.webp"  alt="" />
           </div>
-    </div>
+    </div>  
   )
 }
 
