@@ -1,12 +1,14 @@
-
+import Cars from './components/cars/cars';
 import './App.css';
-import Parent from './components/props/parent';
+
 
 
 function App() {
+
+
   return (
     <div >
-      <Parent/>
+     <Cars/>
     </div>
 
 
